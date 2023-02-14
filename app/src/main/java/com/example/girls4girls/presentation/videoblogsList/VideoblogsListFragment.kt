@@ -1,5 +1,6 @@
 package com.example.girls4girls.presentation.videoblogsList
 
+import android.graphics.drawable.ColorDrawable
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import android.util.Log
@@ -12,16 +13,18 @@ import androidx.appcompat.widget.PopupMenu
 import androidx.navigation.fragment.findNavController
 import com.example.girls4girls.R
 import androidx.appcompat.widget.SearchView
+import androidx.core.content.ContentProviderCompat.requireContext
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.girls4girls.data.VideoBlog
-import com.example.girls4girls.databinding.FragmentVideoblogBinding
 import com.example.girls4girls.databinding.FragmentVideoblogsListBinding
+import com.example.girls4girls.presentation.videoblog.VideoPlayerFragment
+import com.example.girls4girls.presentation.videoblog.VideoblogFragment
 
 class VideoblogsListFragment : Fragment(), SearchView.OnQueryTextListener {
 
     private val viewModel: VideoblogsListViewModel by viewModels()
     private lateinit var binding: FragmentVideoblogsListBinding
+    private var watchedSelected = false
 
     private lateinit var videoAdapter: VideoAdapter
 
@@ -39,13 +42,47 @@ class VideoblogsListFragment : Fragment(), SearchView.OnQueryTextListener {
         setAdapter()
         setSearchView()
 
+        binding.categoryTxt.setOnClickListener {
+            toggleDividers()
+        }
+
+        binding.watchedTxtBtn.setOnClickListener {
+            toggleDividers()
+        }
+
         binding.categoryButton.setOnClickListener { view ->
             showPopUpMenu(view)
         }
 
-
         videoAdapter.modifyList(viewModel.videoList)
     }
+
+    private fun toggleDividers() {
+
+        if (watchedSelected){
+            videoAdapter.modifyList(viewModel.videoList)
+
+            binding.dividerWatched.setBackgroundColor(ContextCompat.getColor(requireContext(),
+                    R.color.mainColor
+                )
+            )
+            binding.dividerAll.setBackgroundColor(ContextCompat.getColor(requireContext(),
+                    R.color.black
+                )
+            )
+
+        } else  {
+            videoAdapter.modifyList(viewModel.videoList.filter { videoBlog ->
+                videoBlog.watched
+            })
+
+            binding.dividerWatched.setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.black))
+            binding.dividerAll.setBackgroundColor(ContextCompat.getColor(requireContext(), R.color.mainColor ))
+        }
+
+        watchedSelected = !watchedSelected
+    }
+
 
     private fun showPopUpMenu(view: View) {
         val popupMenu = PopupMenu(requireContext(), view)
@@ -109,6 +146,7 @@ class VideoblogsListFragment : Fragment(), SearchView.OnQueryTextListener {
     private fun setAdapter() {
         videoAdapter = VideoAdapter()
         binding.listVideoblogs.adapter = videoAdapter
+
         videoAdapter.onVideoClickListener = {
             val action = VideoblogsListFragmentDirections.actionVideoblogsListFragmentToVideoblogFragment(it)
             findNavController().navigate(action)

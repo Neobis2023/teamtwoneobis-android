@@ -7,6 +7,9 @@ import kotlinx.android.parcel.Parcelize
 data class VideoBlog(
     val id: Long,
     val title: String,
+    val speaker: String,
+    val views: Int,
+    val link: String,
     val duration: Int,
     val category: String,
     val watched: Boolean,

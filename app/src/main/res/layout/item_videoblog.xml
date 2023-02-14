@@ -46,6 +46,6 @@
         android:contentDescription="@string/like_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/ic_heart"
+        app:srcCompat="@drawable/ic_heart_filled"
         app:tint="@color/purple_500" />
 </androidx.constraintlayout.widget.ConstraintLayout>

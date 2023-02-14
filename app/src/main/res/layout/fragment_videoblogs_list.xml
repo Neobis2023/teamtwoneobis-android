@@ -21,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:queryBackground="@null"
-        app:queryHint="Поиск" />
+        app:queryHint="Поиск"/>
 
     <TextView
         android:id="@+id/category_txt"
@@ -30,19 +30,22 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:text="Все"
+        android:background="?attr/selectableItemBackgroundBorderless"
         android:textColor="@color/black"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintEnd_toStartOf="@+id/watched_txt_btn"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/categoryButton" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/watched_txt_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:fontFamily="@font/montserrat"
         android:text="Просмотренные"
         android:textColor="@color/black"
         android:textSize="18sp"
@@ -50,6 +53,29 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/category_txt" />
+
+    <View
+        android:id="@+id/divider_all"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/watched_txt_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/category_txt" />
+
+    <View
+        android:id="@+id/divider_watched"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/mainColor"
+        app:layout_constraintBottom_toBottomOf="@+id/divider_all"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/divider_all"
+        app:layout_constraintTop_toTopOf="@+id/divider_all" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/list_videoblogs"
@@ -60,7 +86,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/watched_txt_btn" />
 
     <ImageButton
         android:id="@+id/categoryButton"
@@ -72,28 +98,5 @@
         android:src="@drawable/ic_categories"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/searchView" />
-
-    <View
-        android:id="@+id/divider"
-        android:layout_width="0dp"
-        android:layout_height="2dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="32dp"
-        android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/category_txt" />
-
-    <View
-        android:id="@+id/divider4"
-        android:layout_width="0dp"
-        android:layout_height="2dp"
-        android:layout_marginEnd="24dp"
-        android:background="@color/black"
-        app:layout_constraintBottom_toBottomOf="@+id/divider"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/divider"
-        app:layout_constraintTop_toTopOf="@+id/divider" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
