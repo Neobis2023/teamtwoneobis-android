@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Girls4Girls</string>
+    <string name="bottom_nav_home">Башкы бет</string>
+    <string name="bottom_nav_mentorship">Насаатчылык</string>
+    <string name="bottom_nav_videoblogs">Видео блог</string>
+    <string name="bottom_nav_trainings">Программалар</string>
+    <string name="bottom_nav_forums">Форумдар</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="trainings_and_forums">Тренингдер жана Форумдар</string>
+    <string name="trainings">Тренингдер</string>
+    <string name="forums">Форумдар</string>
+    <string name="useful_video_lessons">Пайдалуу видео сабактар</string>
+    <string name="happy_to_see_you_again">Сени кайрадан көргөнүбүзгө кубанычтабыз!</string>
+    <string name="i_forgot_password">Сырсөздү унутуп калдыңызбы?</string>
+    <string name="input_confirmation_code">Ырастоо кодун териңиз</string>
+    <string name="reset_password_toolbar">Сырсөз кайтаруу</string>
+    <string name="create_new_password">Жаңы сырсөз</string>
+    <string name="reset_password_instructions">Сырсөздү калыбына келтирүү кодун алуу үчүн электрондук почта же телефон номерин териңиз</string>
+    <string name="phone_number_or_email">Телефон номери\n же болбосо \n электрондук почта</string>
+    - Телефон номери\n же болбосо \n электрондук почтаны териңиз
+    <string name="password">Сырсөз</string>
+    <string name="forgot_the_password">Сырсөздү унутуп калдыңызбы?</string>
+    <string name="sign_in">Кирүү</string>
+    <string name="reset_button">Кайтаруу</string>
+    <string name="sign_in_using_account">Аккаунт менен кирүү</string>
+    <string name="new_user">Жаңы колдонуучубу?</string>
+    <string name="register">Катталуу</string>
+    <string name="getting_started">Жакшыраак таанышалы?</string>
+    <string name="name_and_surname">Фамилия жана Аты</string>
+    <string name="name">Аты</string>
+    <string name="surname">Фамилия</string>
+    <string name="verification">Текшерүү</string>
+    <string name="region">Аймак</string>
+    --Аймак или Облус
+    <string name="email_does_not_exist">Мындай почта жок</string>
+    <string name="login_is_empty">Логин же телефон номерин териңиз</string>
+    <string name="password_is_empty">Сырсөздү териңиз</string>
+    <string name="enter_last_name">Фамилияны териңиз</string>
+    <string name="enter_name">Атыңызды териңиз</string>
+    <string name="enter_gmail_address">Электрондук почтаны териңиз</string>
+    <string name="enter_birthday">Туулган күнүңүздү териңиз</string>
+    <string name="enter_phone_number">Телефон номерин териңиз</string>
+    <string name="enter_your_location">Районуңузду, шаарыңызды, айылыңызды көрсөтүңүз</string>
+    <string name="continue_application">Кийинки</string>
+    <string name="go_back">Артка</string>
+    <string name="my_answer">Менин жообум</string>
+    <string name="phone_number">Телефон номери</string>
+    <string name="gmail_address">Электрондук почта дареги</string>
+    <string name="password_length_incorrect">Сырсөздүн узундугу кеминде 8 белгиден турушу керек</string>
+    <string name="fill_out_the_blank">Талааны толтуруңуз</string>
+    ?мамам
+    <string name="email">Электрондук почта</string>
+    <string name="password_repeat">Сырсөздү кайталаңыз</string>
+    <string name="password_does_not_match">Сырсөздөр бири-бирине дал келбейт</string>
+    <string name="continue_registration">Улантуу</string>
+    <string name="confirm">Ырастоо</string>
+    <string name="register_though_account">же каттоо эсеби аркылуу катталыңыз:</string>
+    <string name="already_have_an_account">Каттоо эсебиңиз барбы?</string>
+    <string name="birthday">Туулган жылы/күнү</string>
+    <string name="choose_the_region">Аймакты тандаңыз</string>
+    <string name="choose_the_birthday">Туулган күнүңүздү толтуруңуз</string>
+    <string name="gender">Жынысы</string>
+    <string name="choose_gender">Жынысын тандоо</string>
+    <string name="finish">Бүтүрүү</string>
+    <string name="finish_later">Кийинчерээк толтуруу</string>
+
+    <string name="training_apply_rec1">Тренинг учурунда сиз 14 жаштан 19 жашка чейин болушуңуз керек.</string>
+    <string name="ability_to_participate">Тренинг өтүп жаткан күндөрү келип-кетүүгө мүмкүнчүлүгүңүз болобу?</string>
+    <string name="why_you_should_participate">Эмне үчүн сиз бул тренингге катышышыңыз керек?</string>
+    <string name="list_reasons">3 себепти санап, түшүндүрүңүз. Максимум 100 сөз</string>
+    <string name="what_i_expect">Биздин тренингден эмнени күтөсүз? Сиз эмнени үйрөнгүңүз келет?</string>
+    <string name="message_length">50 -.100 сөз</string>
+
+    <string name="what_are_you_interested">Тренингдин кайсы темалары сизди көбүрөөк кызыктырат?</string>
+    <string name="career">Карьерага даярдык</string>
+    <string name="time_management">Тайм-менеджмент</string>
+    -Убакытты башкаруу
+    <string name="digital_literacy">Санариптик сабаттуулук</string>
+    <string name="health_care">Сергек жашоо образы</string>
+    <string name="booling">Мектептеги зомбулук</string>
+    <string name="reproductive_health">Репродуктивдүү ден соолук</string>
+    <string name="mindfulness">Аң-сезимдүүлүк</string>
+    <string name="human_rights">Адам укуктарын сактоо</string>
+
+    <string name="what_else_would_you_like">Сизди дагы кандай темалар кызыктырат?</string>
+    <string name="we_want_to_know">Окутуу үчүн сиздин каалоолоруңузду билгибиз келет
+        мүмкүн болушунча сиз үчүн пайдалуу.</string>
+
+    <string name="how_do_you_know_about_us">Тренинг жөнүндө кайдан билдиңиз?</string>
+    <string name="instagram">Инстаграм</string>
+    <string name="facebook">Фэйсбук</string>
+    <string name="from_friends">Достор</string>
+    <string name="other">Башка:</string>
+    <string name="send">Жөнөтүү</string>
+
+    <string name="apply_success">Сиз “Girls for Girls” тренингине катышуу үчүн арызды ийгиликтүү тапшырдыңыз</string>
+    <string name="apply_success_description">Сиз “Girls for Girls” тренингине катышуу үчүн арызды ийгиликтүү тапшырдыңыз</string>
+
+
+    <string-array name="regions">
+        <item>Бишкек</item>
+        <item>Чүй</item>
+        <item>Ысык-Көл</item>
+        <item>Нарын</item>
+        <item>Талас</item>
+        <item>Жалал-Абад</item>
+        <item>Ош</item>
+        <item>Баткен</item>
+    </string-array>
+
+    <string-array name="genders">
+        <item>Аял</item>
+        <item>Эркек</item>
+    </string-array>
+
+    <string name="bishkek">Бишкек</string>
+    <string name="chuy">Чүй</string>
+    <string name="issyk_kol">Ысык-Көл</string>
+    <string name="naryn">Нарын</string>
+    <string name="talas">Талас</string>
+    <string name="zhalal_abad">Жалал-Абад</string>
+    <string name="osh">Ош</string>
+    <string name="batken">Баткен</string>
+    <string name="dash">-</string>
+    <string name="change_password_description">Улантуу үчүн, каттоо эсебинин ээси экениңизди ырастаңыз</string>
+
+
+    <string name="boy">Жигит</string>
+    <string name="girl">Кыз</string>
+
+    <string name="temp_phone_number">0707 365151</string>
+    <string name="na_nomer">Номерге</string>
+    <string name="was">был</string>
+    <string name="code_has_been_sent">6 орундуу код жөнөтүлдү</string>
+    <string name="verify_code">Кодду ырастаңыз</string>
+    <string name="verify_account_user">Аккаунту ырастаңыз</string>
+    <string name="incorrect_verification_code">Туура эмес код. Дагы бир жолу кайталаңыз
+</string>
+    <string name="verify">Туура эмес </string>
+    <string name="send_code_again"><u>Кодду кайра жөнөтүңүз</u></string>
+    <string name="incorrect_otp">Туура эмес код. Дагы бир жолу кайталаңыз</string>
+    <string name="welcome">Кош келиңиз!</string>
+    <string name="go_to_main_page"><u>Башкы бетке өтүү</u></string>
+    <string name="registration">Каттоо</string>
+    <string name="_0771677010">0771677010</string>
+    <string name="_0771677010_example">Мисал: 996#########</string>
+    <string name="hello_registered_user">Салам, ${it.firstName}!</string>
+
+    <string name="incorrect_type_number">Сандын форматы туура эмес. Номер 996 менен башталышы керек.</string>
+    <string name="incorrect_type_email">Почта @gmail.com доменинде болушу керек</string>
+
+    <string name="upcoming_trainings">Алдыдагы тренингдер</string>
+    <string name="past_trainings">Өткөн тренингдер</string>
+    <string name="women_rights">Аялдардын укуктары</string>
+
+    <string name="title_apply">Колдонмо толтурүү</string>
+
+    <string name="upcoming_forums">Келе жаткан форумдар</string>
+    <string name="past_forums">Өткөн форумдар</string>
+
+
+    <string name="video_title_tv">Видео темасы</string>
+    <string name="like_button">Like баскычы</string>
+    <string name="male">Эркек</string>
+    <string name="female">Аял</string>
+    <string name="leave_as_guest">Конок болуп кал</string>
+    <string name="mentorship_slogan">Өзүңүздүн мыкты версияңыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачыңыз!</string>
+    <string name="some_mentorship_text">Өзүңүздүн мыкты версияңыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачыңыз!Өзүңүздүн мыкты версияңыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачыңыз!
+   Өзүңүздүн мыкты версияңыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачыңыз!</string>
+    <string name="user">Колдонуучу</string>
+    <string name="my_profile">Менин профилим</string>
+    <string name="title">Title</string>
+    <string name="date_example">Date: 1st March 2023 year</string>
+    <string name="time_example">Time: 17:00</string>
+    <string name="location_example">Location: Bishkek</string>
+    <string name="deadline_example">Дедлайн: 4 февраль 2023 жылы</string>
+    <string name="training_text">Жеке насаатчылык\n программасы сизге\n жеке жана кесиптик максаттарды коюуга\n жардам берет.</string>
+    <string name="post_trainings_all_list">Баары</string>
+    <string name="apply">Колдонмо толтурүү</string>
+    <string name="about_training">Тренинг жонундо</string>
+    <string name="lectors">Лекторлор</string>
+    <string name="update_user">Профильди жаңыртуу</string>
+
+    <string name="training_description">
+       Биз өзүбүздүн мыкты версиябыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачабыз\n
+        Биз өзүбүздүн мыкты версиябыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачабыз!\n
+        Биз өзүбүздүн мыкты версиябыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачабыз!\n
+        Өзүңүздүн мыкты версияңыз болуу үчүн жаңы мүмкүнчүлүктөрдү ачыңыз!</string>
+
+    <string name="sydykova_aikanysh_name">Сыдыкова Айканыш</string>
+    <string name="sydykova_aikanysh_info">Айканыш - дымактуу кыз, ал сизге өзүн сүйүүгө, тартипке жана ишенимге үйрөтөт\n\nFLEX \'13 жана Global Village \'22 бүтүрүүчүсү\n\n
+        Эл аралык билим берүү боюнча Америка Кеңештеринде программанын координатору\n\nNeobis компаниясында долбоордун менеджери\n\nCo- Кыздар үчүн негиздөөчү кыздар</string>
+
+    <string name="your_score">Сиз %2$d\n туура жооптун ичинен %1$d упай алдыңыз</string>
+    <string name="good_result">Ура!</string>
+    <string name="good_result_description">Эң сонун натыйжа! Сиз видеолекция сынагынан мыкты өткөнүңүз үчүн "Мыкты" жетишкендикке ээ болдуңуз.</string>
+    <string name="bad_result">О жок!</string>
+    <string name="bad_result_description">Үрөй учурган жыйынтык! Сиз видеолекция сынагынан катуу өткөнүңүз үчүн "Жоготуучу" жетишкендигине ээ болдуңуз.</string>
+    <string name="review_answers">Менин жоопторумду текшериңиз</string>
+    <string name="check_achievements">Менин жетишкендиктеримди көрүү</string>
+    <string name="user_name">Cалам, </string>
+    <string name="user_name_to_change">пайдаланучу!</string>
+    <string name="modify_account">Каттоо эсебин түзөтүү</string>
+    <string name="saved_videos">Сүйүктүү видеолор</string>
+    <string name="watched_videos">Көрүлгөн видеолор</string>
+    <string name="my_applications">Менин каттолорум</string>
+    <string name="my_achievements">Менин жетишкендиктер</string>
+    <string name="contact_us">Кайра байланыш</string>
+    <string name="language_change">Приложениянын тили</string>
+    <string name="or">или</string>
+
+    <string name="speaker_info">Ментор, co-founder</string>
+
+    <string name="register_from_user">Каттоо</string>
+    <string name="logout">Аккаунттан чыгуу</string>
+    <string name="image_descr">image</string>
+    <string name="change_user_image">Сүрөт озгортуу</string>
+    <string name="personal_data">Жеке маалыматтар</string>
+    <string name="input_birthday">Туулган күндү киргизиңиз</string>
+    <string name="choose_region">Аймакты тандаңыз</string>
+    <string name="data_for_login">Кирүү чоо-жайы</string>
+    <string name="change_password">Сырсөздү өзгөртүү</string>
+    <string name="girls_for_girls_apply_description">Тренинг “Girls\n for Girls”</string>
+    <string name="jeton_description_example">Кыргызстандын тунгуч балеринасы, муг</string>
+
+    <string name="girls_for_girls_apply_requirements">
+       Урматтуу кыздар!
+Сиздерди 2023-жылдын 7-8-апрелинде өтө турган "Кыздар үчүн" 2 күндүк тренингге катышууга чакырабыз. Кантта. Тренингдин максаты – кыздарды өзүн-өзү өнүктүрүүгө, лидерликке, укуктарын коргоого, коомубуздун өнүгүшүнө салым кошо турган социалдык долбоорлорго катышууга түрткү берүү.
+Тренинг төмөнкүлөрдү кам
+Тренинг төмөнкүлөрдү камтыйт:
+Өтчү жери жана даталары:
+7-8-апрелде Кант Америка бурчунда
+Катышуу бекер!❗Окутууга арыз берүүнүн акыркы мөөнөтү:
+31-март 23:59
+Долбоор SIDP гранттык программасынын алкагында каржыланат жана БААУнун жарандык катышуу борбору тарабынан башкарылат.
+    </string>
+    <string name="answer_yes">Ооба</string>
+    <string name="answer_no">Жок</string>
+    <string name="training_title">Тренинг</string>
+    <string name="forum_title">Форум</string>
+    <string name="user_status">Статус:</string>
+    <string name="age">Жашы</string>
+    <string name="chertochka">-</string>
+    <string name="go_to_settings">Жөндөөлөргө өтүңүз</string>
+    <string name="my_achievements_cards">Менин жетишкендиктерим</string>
+    <string name="my_cards_list">Менин карталарым</string>
+
+    <string name="greetings_to_user">"Салам, ${it.firstName}!"</string>
+    <string name="russian_language_change">Русский</string>
+    <string name="kyrgyz_language_change">Кыргызча</string>
+    <string name="change_current_lanuage">Тилди алмаштыруу</string>
+
+    <string name="input_code">Введите 6-значный код,</string>
+    <string name="otp_na">отправленный на</string>
+    <string name="gmail_example">example@mail.com</string>
+    <string name="and_and">жана</string>
+    <string name="valid_during_10_min">Код действителен в течение 10 минут</string>
+    <string name="for_the_firt_video_jeton">За 1 видеоурок</string>
+    <string name="speakers">Спикерерлер</string>
+</resources>

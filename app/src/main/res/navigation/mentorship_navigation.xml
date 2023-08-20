@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mentorship_navigation"
+    app:startDestination="@id/mentorshipFragment">
+
+    <fragment
+        android:id="@+id/mentorshipFragment"
+        android:name="com.example.girls4girls.presentation.mentorship.MentorshipFragment"
+        android:label="@string/bottom_nav_mentorship"
+        tools:layout="@layout/fragment_mentorship">
+        <action
+            android:id="@+id/action_mentorshipFragment_to_aboutMentorshipFragment"
+            app:destination="@id/aboutMentorshipFragment" />
+        <action
+            android:id="@+id/action_mentorshipFragment_to_graduatesFragment"
+            app:destination="@id/graduatesFragment" />
+        <action
+            android:id="@+id/action_mentorshipFragment_to_mentorsFragment"
+            app:destination="@id/mentorsFragment" />
+        <action
+            android:id="@+id/action_mentorshipFragment_to_mentorFragment"
+            app:destination="@id/mentorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutMentorshipFragment"
+        android:name="com.example.girls4girls.presentation.mentorship.about.AboutMentorshipFragment"
+        android:label="fragment_about_mentorship"
+        tools:layout="@layout/fragment_about_mentorship" />
+    <fragment
+        android:id="@+id/graduatesFragment"
+        android:name="com.example.girls4girls.presentation.mentorship.graduate.GraduatesFragment"
+        android:label="fragment_graduates"
+        tools:layout="@layout/fragment_graduates" />
+    <fragment
+        android:id="@+id/mentorsFragment"
+        android:name="com.example.girls4girls.presentation.mentorship.mentor.MentorsListFragment"
+        android:label="fragment_mentors"
+        tools:layout="@layout/fragment_mentors" />
+    <fragment
+        android:id="@+id/mentorFragment"
+        android:name="com.example.girls4girls.presentation.mentorship.mentor.MentorFragment"
+        android:label="Ментор"
+        tools:layout="@layout/fragment_mentor">
+        <argument
+            android:name="mentor"
+            app:argType="com.example.girls4girls.data.Mentor" />
+        <action
+            android:id="@+id/action_mentorFragment_to_videoblogFragment2"
+            app:destination="@id/videoblogFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoblogFragment2"
+        android:name="com.example.girls4girls.presentation.videoblog.VideoblogFragment"
+        android:label="Видео"
+        tools:layout="@layout/fragment_videoblog">
+        <argument
+            android:name="currentVideoBlog"
+            app:argType="com.example.girls4girls.data.VideoBlog" />
+    </fragment>
+</navigation>
